@@ -1,7 +1,8 @@
-# Elm Home Page
+# Edudu
 
-All of [elm-lang.org](http://elm-lang.org) is written in Elm!
+Edudu é um projeto para ensinar os fundamentos de programação de forma on-line e gratuita.
 
+O código deste projeto é um fork de parte do site elm-lang.org (mais espeficimente, o editor on-line).
 
 ## Build Instructions
 
