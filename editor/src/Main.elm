@@ -171,8 +171,8 @@ view model =
 viewExamplesLink : Html msg
 viewExamplesLink =
   div [ class "hint" ]
-    [ text "More Examples "
-    , a [ href "/examples", target "_blank" ] [ text "Here" ]
+    [ text "Mais informações "
+    , a [ href "https://segunda.tech/edudu", target "_blank" ] [ text "Aqui" ]
     ]
 
 

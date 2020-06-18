@@ -61,9 +61,9 @@ function makeExampleHtml {
 <body>
 <form id="editor" action="https://worker.elm-lang.org/compile" method="post" enctype="multipart/form-data" target="output">
   <div id="options">
-    <div class="hint">More Examples <a href="/examples" target="_blank">Here</a></div>
-    <div class="button blue" title="Compile your code (Ctrl-Enter)" onclick="compile()">Compile<span></span></div>
-    <div class="button gray" title="Switch the color scheme" onclick="lights()">Lights<span></span></div>
+    <div class="hint">Mais informações <a href="https://segunda.tech/edudu" target="_blank">Aqui</a></div>
+    <div class="button blue" title="Execute seu código (Ctrl-Enter)" onclick="compile()">Executar<span></span></div>
+    <div class="button gray" title="Altere o tema do editor" onclick="lights()">Luzes<span></span></div>
   </div>
   <textarea id="code" name="code" style="display:none;">$(cat $4)</textarea>
 </form>
