@@ -42,7 +42,7 @@ EOF
 
 
 # ARGS:
-#   $1 = _site/classes/NAME.html
+#   $1 = _site/examples/NAME.html
 #   $2 = <title>
 #   $3 = NAME
 #   $4 = code
@@ -68,7 +68,7 @@ function makeExampleHtml {
   <textarea id="code" name="code" style="display:none;">$(cat $4)</textarea>
 </form>
 <div id="divider"></div>
-<iframe id="output" name="output" src="/classes/_compiled/$3.html"></iframe>
+<iframe id="output" name="output" src="/examples/_compiled/$3.html"></iframe>
 <script src="/assets/editor.js"></script>
 </body>
 
@@ -102,6 +102,32 @@ mkdir -p _temp
 
 cp -r static/* _site/
 
+## pages
+
+echo "PAGES"
+for elm in $(find pages -type f -name "*.elm")
+do
+    subpath="${elm#pages/}"
+    name="${subpath%.elm}"
+    js="_temp/$name.js"
+    html="_site/$name.html"
+
+    if [ -f $html ] && [ $(date -r $elm +%s) -le $(date -r $html +%s) ]; then
+        echo "Cached: $elm"
+    else
+        echo "Compiling: $elm"
+        mkdir -p $(dirname $js)
+        mkdir -p $(dirname $html)
+        rm -f elm-stuff/*/Main.elm*
+        elm make $elm --optimize --output=$js > /dev/null
+        uglifyjs $js --compress 'pure_funcs="F2,F3,F4,F5,F6,F7,F8,F9,A2,A3,A4,A5,A6,A7,A8,A9",pure_getters,keep_fargs=false,unsafe_comps,unsafe' \
+          | uglifyjs --mangle \
+          | makePageHtml $html $name
+        # elm make $elm --output=$js > /dev/null
+        # cat $js | makePageHtml $html $name
+    fi
+done
+
 ## editor
 
 if ! [ -f _site/assets/editor.js ]; then
@@ -113,29 +139,29 @@ if ! [ -f _site/assets/editor.js ]; then
   rm editor/elm.js
 fi
 
-## classes
+## examples
 
-echo "Classes"
-for elm in $(find classes -type f -name "*.elm")
+echo "EXAMPLES"
+for elm in $(find examples -type f -name "*.elm")
 do
-    subpath="${elm#classes/}"
+    subpath="${elm#examples/}"
     name="${subpath%.elm}"
-    html="_site/classes/$name.html"
+    html="_site/examples/$name.html"
 
     if [ -f $html ] && [ $(date -r $elm +%s) -le $(date -r $html +%s) ]; then
         echo "Cached: $elm"
     else
         echo "Compiling: $elm"
         rm -f elm-stuff/*/Main.elm*
-        elm make $elm --output=_site/classes/_compiled/$name.html > /dev/null
+        elm make $elm --output=_site/examples/_compiled/$name.html > /dev/null
         cat $elm | makeExampleHtml $html $name $name
     fi
 done
 
 ## try
 
-echo "" | makeExampleHtml _site/index.html "Edudu" _try
-cp editor/splash.html _site/classes/_compiled/_try.html
+echo "" | makeExampleHtml _site/try.html "Try Elm!" _try
+cp editor/splash.html _site/examples/_compiled/_try.html
 
 
 ## REMOVE TEMP FILES

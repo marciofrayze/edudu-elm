@@ -38,8 +38,8 @@ import Playground exposing (..)
 -- para executar seu primeiro programa! :)
 main =
   picture
-    [ circle green 200 ]
-    
+    [ circle green 100 ]
+
 -- Fácil né?! Mas o que está acontecendo?!
 
 ------- 4- O que é o "main"?
@@ -50,6 +50,9 @@ main =
 -- ter essa linha: "main ="
 -- E todo o restante representa o que queremos que
 -- o computador faça pra gente.
+-- Dica: não pode ter nenhum espaço antes da
+-- palavra "main". Ela deve ser a primeira palavra
+-- da linha.
 
 ------- 5- O que é o "picture"?
 -- A palavra "picture" em inglês signifca desenho.
@@ -103,6 +106,9 @@ main =
 --       segundo circulo deve estar dentro desses simbolos.
 --     - Utilize uma virgula para indicar que quer criar um segundo
 --       circulo dentro da lista de formas geométricas.
+--     - Cuidado com a ordem! Se o circulo menor ficar antes 
+--       do maior na lista, ele ficará atrás do maior e não será 
+--       possível visualiza-lo.
 
 ------- DESAFIO 4 (avançado): Crie 4 circulos, um dentro do outro.
 -- Bastante similar ao desafio anterior, mas desta vez devem ser 4
