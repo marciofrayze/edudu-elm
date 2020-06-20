@@ -12,13 +12,23 @@ import Playground exposing (..)
 --    6- O que é o "circle"?
 
 ------- 1- Como fazer comentários no código
--- Toda linha que começa com "--" é um comentário e 
--- será ignorada pelo computador. 
--- Serve apenas para DOCUMENTAR o nosso código. 
+-- Toda linha que começa com "--" é um comentário e
+-- será ignorada pelo computador.
+-- Serve apenas para DOCUMENTAR o nosso código.
 -- Isso ajuda a gente a lembrar depois
 -- o que foi feito e também serve para nos
 -- COMUNICARMOS com outras pessoas (como estou
--- fazendo agora com você!)
+-- fazendo agora com você!).
+-- Outra forma de comentar o código é incluindo
+-- um texto entre os simbolos {- e -}
+-- Tudo que estiver entre estes simbolos será
+-- ignorado. Por exemplo:
+{- Todas
+   estas
+   linhas
+   são comentários
+   e serão ignoradas
+-}
 
 ------- 2- O que é um "import"?
 -- A primeira linha lá em cima que começa com 

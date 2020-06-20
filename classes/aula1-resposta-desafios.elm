@@ -5,7 +5,7 @@ import Playground exposing (..)
 ----------------------------------------------
 
 -- Descomente as linhas do código de cada desafio
--- (apague o "--" da frente das linhas) e em seguida
+-- (apague os simbolos "{-" e "-}" e em seguida
 -- pressione "Executar" para ver o resultado.
 -- Lembre-se de comentar de volta um código antes de
 -- descomentar o do próximo desafio.
@@ -19,9 +19,12 @@ main =
     [ circle green 5 ]
 
 ------- DESAFIO 2 (fácil): Mudando a cor do circulo.
--- main =
---  picture
---    [ circle red 5 ]
+
+{-
+main =
+  picture
+    [ circle red 5 ]
+-}
 
 -- Altere o valor da cor do circulo para sua cor
 -- preferida.  Não esqueça de comentar as linhas do
@@ -43,11 +46,13 @@ main =
 -- abaixo temos um circulo vermelho dentro de um
 -- verde.
 
--- main =
---  picture
---    [ circle green 100
---    , circule red 50
---    ]
+{-
+main =
+  picture
+    [ circle green 100
+    , circule red 50
+    ]
+-}
 
 ------- DESAFIO 4 (avançado): Crie 4 circulos, um
 ------- dentro do outro.
@@ -58,10 +63,12 @@ main =
 -- Antes de executar o código abaixo, você é capaz
 -- de imaginar o que ele irá desenhar na tela?
 
--- main =
---  picture
---    [ circle black 200
---    , circle green 150
---    , circle yellow 100
---    , circle red 50
---    ]
+{-
+main =
+  picture
+    [ circle black 200
+    , circle green 150
+    , circle yellow 100
+    , circle red 50
+    ]
+-}
