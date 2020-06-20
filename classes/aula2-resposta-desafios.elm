@@ -32,7 +32,7 @@ main =
 --        |> move 0 50
 --    ]
 
-------- DESAFIO 3 (avançado): Desenha uma estrela.
+------- DESAFIO 3 (avançado): Desenhe uma estrela.
 -- Use triangulos para desenhar uma estrela
 -- de 6 pontas.
 
@@ -43,20 +43,16 @@ main =
 --         |> rotate 180
 --     ]
 
-------- DESAFIO 3 (avançado): Desenha uma estrela.
--- Use triangulos para desenhar uma estrela
--- de 6 pontas.
-------- DESAFIO 1: Mudando tamanho do circulo.
--- Este desafio era muito fácil né?! Bastava alterar o valor
--- do tamanho do circulo.
--- main =
---   picture
---     [ circle green 5 ]
+------- DESAFIO 4 (avançado): Desenhe um onibus.
+-- Tente incluir janelas, a frente do onibus
+-- e tudo mais que desejar. Não existe uma
+-- resposta errada. Use a imaginação!
 
-------- DESAFIO 4 (avançado): Desenha um onibus.
-------- Tente incluir janelas, a frente do onibus
-------- e tudo mais que desejar! Não existe uma
-------- resposta errada. Use a imaginação!
+-- Descomente as linhas abaixo para ver
+-- o meu ônibus. Se ficar em dúvida o que
+-- cada elemento representa, tente mudar
+-- sua cor e ver qual parte do desenho
+-- é alterada.
 
 -- main =
 --   picture
