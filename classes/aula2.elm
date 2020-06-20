@@ -103,7 +103,7 @@ main =
 -- Alem de mover nos eixos x e y, podemos
 -- também rotacionar as formas.
 -- Podemos fazer com que o triangulo fique
--- um pouco torno, por exemplo.
+-- um pouco torto, por exemplo.
 -- Assim temos mais liberdade na hora de
 -- desenhar!
 -- Rotacionar uma forma é muito similar ao

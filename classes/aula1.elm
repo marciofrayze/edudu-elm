@@ -57,10 +57,9 @@ main =
 -- É através dela que expressamos para o computador
 -- que queremos desenhar algo na tela.
 -- Em seguida criamos uma LISTA (representada pelos
--- simbolos
--- "[" e "]") de formas geométricas, que vão formar
--- nosso desenho (picture). Neste exemplo nosso
--- desenho é formado por apenas uma forma
+-- simbolos "[" e "]") de formas geométricas, que 
+-- vão formar nosso desenho (picture). Neste exemplo
+-- nosso desenho é formado por apenas uma forma
 -- geométrica: um circulo.
 
 ------- 6- O que é o "circle"?
