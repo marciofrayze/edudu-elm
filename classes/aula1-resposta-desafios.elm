@@ -10,15 +10,18 @@ import Playground exposing (..)
 -- Lembre-se de comentar de volta um código antes de
 -- descomentar o do próximo desafio.
 
-------- DESAFIO 1 (fácil): Mudando tamanho do circulo.
+------- DESAFIO 1 (fácil): Mudando tamanho do círculo.
 -- Este desafio era muito fácil né?! Bastava alterar
--- o valor do tamanho do circulo.
+-- o valor do tamanho do círculo.
 
 main =
   picture
     [ circle green 5 ]
 
-------- DESAFIO 2 (fácil): Mudando a cor do circulo.
+------- DESAFIO 2 (fácil): Mudando a cor do círculo.
+-- Este também era bem fácil. Bastava mudar o
+-- primeiro parâmetro do círculo (circle) para outra
+-- cor.
 
 {-
 main =
@@ -26,7 +29,7 @@ main =
     [ circle red 5 ]
 -}
 
--- Altere o valor da cor do circulo para sua cor
+-- Altere o valor da cor do círculo para sua cor
 -- preferida.  Não esqueça de comentar as linhas do
 -- desafio 1.
 
@@ -37,13 +40,13 @@ main =
 -- darkOrange, darkYellow, darkGreen, darkBlue,
 -- darkPurple, darkBrown, white, lightGrey, grey,
 -- darkGrey, lightCharcoal, charcoal, darkCharcoal,
--- black, lightGray, gray, darkGray
+-- black, lightGray, gray e darkGray.
 
-------- DESAFIO 3 (avançado): Crie 2 circulos, um
+------- DESAFIO 3 (avançado): Crie 2 círculos, um
 ------- dentro do outro.
 -- Para desenhar mais de uma figura geométrica,
 -- separamos cada uma com uma virgula. No exemplo
--- abaixo temos um circulo vermelho dentro de um
+-- abaixo temos um círculo vermelho dentro de um
 -- verde.
 
 {-
@@ -54,7 +57,7 @@ main =
     ]
 -}
 
-------- DESAFIO 4 (avançado): Crie 4 circulos, um
+------- DESAFIO 4 (avançado): Crie 4 círculos, um
 ------- dentro do outro.
 -- Caso tenha tido dificuldades nos exercícios 3 e 4,
 -- agora que já viu a resposta do 3, que tal tentar
