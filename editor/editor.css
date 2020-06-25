@@ -114,7 +114,7 @@ body {
 
 /* code */
 
-.cm-s-dark span.cm-comment { color: #75715e; }
+.cm-s-dark span.cm-comment { color: #cacac6; }
 .cm-s-dark span.cm-atom { color: #ae81ff; }
 .cm-s-dark span.cm-number { color: #ae81ff; }
 
