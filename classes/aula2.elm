@@ -3,6 +3,7 @@ import Playground exposing (..)
 ----------------------
 ------- AULA 2 -------
 ----------------------
+
 -- O que vamos aprender?
 --    1- Como desenhar outras figuras geométricas.
 --    2- Posicionar uma forma geométrica.
@@ -10,6 +11,7 @@ import Playground exposing (..)
 --       2.2 - Rotacionando a forma geométrica.
 
 ------- 1- Como desenhar outras figuras geométricas.
+
 -- Além de círculos, podemos desenhar:
 -- Triagulos (triangle)
 -- Quadrados (square)
@@ -62,6 +64,7 @@ main =
 
 ------- 2 - Posicionar uma forma geométrica.
 ----------- 2.1 - Movendo a forma geométrica.
+
 -- Você deve ter reparado que toda forma geométrica
 -- que desenhamos até agora aparecem bem no meio
 -- da tela, certo? Apenas com isso fica difícil
@@ -110,6 +113,7 @@ main =
 -- resultado.
 
 ----------- 2.2 - Rotacionando.
+
 -- Além de mover nos eixos x e y, podemos
 -- também rotacionar as formas.
 -- Podemos fazer com que o triangulo fique
@@ -153,21 +157,25 @@ main =
 ----------------------------------
 
 ------- DESAFIO 1 (fácil): Desenhe um carro.
+
 -- Utilize um retângulo para representar o carro
 -- e dois círculos para representar suas rodas.
 -- Utilize o comando "move" para posicionar as
 -- rodas.
 
 ------- DESAFIO 2 (fácil): Desenhe uma árvore.
+
 -- Utilize um retangulo marrom para representar
 -- o tronco e um círculo verde para representar
 -- as folhas.
 
 ------- DESAFIO 3 (avançado): Desenha uma estrela.
+
 -- Use triangulos para desenhar uma estrela
 -- de 6 pontas.
 
 ------- DESAFIO 4 (avançado): Desenha um onibus.
+
 -- Tente incluir janelas, a frente do ônibus
 -- e tudo mais que desejar! Não existe uma
 -- resposta errada. Use a imaginação!
