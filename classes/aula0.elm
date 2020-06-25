@@ -25,9 +25,8 @@
 -- Este curso é dividido em várias aulas, mas todas
 -- seguem o mesmo formato:
 -- No início do texto introduzo algum tema novo,
--- mostro alguns exemplos para explicar melhor o
--- tema e em seguida proponho alguns desafios para
--- você.
+-- mostro exemplos para explicar melhor o tema
+-- e em seguida proponho alguns desafios para você.
 -- É MUITO importante que você faça os desafios!
 -- É a parte mais importante (e divertida!) de toda
 -- aula.
