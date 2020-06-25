@@ -4,6 +4,10 @@ import Playground exposing (..)
 ------- AULA 3 -------
 ----------------------
 
+-- Esta aula será mais teórica, mas o que vamos aprender hoje
+-- é fundamental para entender todo o resto que está por vir. Então,
+-- bora entender o que é uma função??
+
 -- O que vamos aprender?
 --    1- O que é uma funcão?
 --    2- Como criar nossas próprias funções?
