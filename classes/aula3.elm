@@ -180,3 +180,8 @@ carro =
 ------- as frutas, adicionando pequenas manchas, folhas ou o que mais
 ------- quiser. Use a imaginação! Pode tentar representar uma laranja,
 ------- ou qualquer fruta que quiser.
+
+
+
+
+
