@@ -38,7 +38,7 @@
 -- aparecer uma mensagem de erro :)
 
 -- Mas afinal, como é escrito um código? Abaixo temos
--- nosso primeiro exemplo! O Famos "Olá Mundo!", que
+-- nosso primeiro exemplo! O Famoso "Olá Mundo!", que
 -- apenas exibe este texto na tela.
 
 import Html exposing (text)
