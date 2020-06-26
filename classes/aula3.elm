@@ -86,7 +86,24 @@ folhas =
 
 -- Descomente o código acima e veja que o resultado será o mesmo.
 
--- Agora, vamos separar o tronco de nossa árvore em uma outra
+-- Para criarmos uma nova função, basta darmos um nome para ela 
+-- (uma palavra qualquer, neste caso, "folhas") seguida do 
+-- simbolo "=", da mesma forma que na matemática.
+-- Tudo que estiver depois do simbolo de igual, fará parte da
+-- nossa nova função.
+-- Mas isso apenas DEFINE a função. Para a utilizamos,
+-- digitarmos a mesma palavra em outros locais onde quisermos
+-- utilizar aquele trecho de código. No nosso exemplo,
+-- a função folhas é utilizada como parte da função main.
+
+-- É bem importante enteder este conceito! Analise com calma
+-- o código acima para ter certeza que compreendeu.
+
+-- Dica: a ordem das funções é irrelevante. Você pode definir
+-- primeiro a função main e depois a função folhas ou
+-- primeiro a função folha e depois a main.
+
+-- Agora vamos separar o tronco de nossa árvore em uma outra
 -- função:
 
 {-
@@ -99,7 +116,7 @@ main =
 tronco =
   rectangle darkBrown 60 250
     |> move 0 -150
-        
+
 folhas =
   circle green 150
     |> move 0 50
@@ -140,7 +157,7 @@ folhas =
 
 -- Existem 2 grandes vantagens em dividirmos nossos códigos em
 -- várias funções. 
--- A primeira, é que torna mais fácil de expressarmos nossas 
+-- A primeira é que torna mais fácil de expressarmos nossas 
 -- intenções. Observe a função main que definimos inicialmente e a
 -- compare com a função main de nosso último código. Desta nova
 -- forma, fica muito mais EXPLICITO o que estamos tentando desenhar,
