@@ -209,13 +209,6 @@ carro =
 ------- na árvore. As frutas podem ser simples
 ------- esferas vermelhas.
 
-------- DESAFIO 3 (intermediário): Este desafio
-------- é opcional. Modifique as frutas, adicionando
-------- pequenas manchas, folhas ou o que mais
-------- quiser. Use a imaginação! Pode tentar
-------- representar uma laranja, ou qualquer
-------- fruta que quiser.
-
 
 
 
