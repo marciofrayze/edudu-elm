@@ -31,9 +31,9 @@ rodaTraseira =
   circle darkRed 60
      |> move 100 -100
 
-------- DESAFIO 2 (fácil): Adione mais uma função
-------- chamada frutas para representar 4 frutas
-------- na árvore. As frutas podem ser simples
+------- DESAFIO 2 (fácil): Adione mais algumas
+------- funções para representar 4 frutas na
+------- árvore. As frutas podem ser simples
 ------- esferas vermelhas.
 
 {-

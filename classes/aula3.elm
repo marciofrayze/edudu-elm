@@ -204,10 +204,14 @@ carro =
   ]
 -}
 
-------- DESAFIO 2 (fácil): Adione mais uma função
-------- chamada frutas para representar 4 frutas
-------- na árvore. As frutas podem ser simples
+------- DESAFIO 2 (fácil): Adione mais algumas
+------- funções para representar 4 frutas na
+------- árvore. As frutas podem ser simples
 ------- esferas vermelhas.
+-- Dica: A forma mais fácil é criar 4 novas
+-- funções: fruta1, fruta2, fruta3 e fruta4.
+-- Na próxima aula vamos ver uma forma melhor
+-- para resolver este tipo de problema.
 
 
 
