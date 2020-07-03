@@ -49,7 +49,7 @@ fruta x y =
 ------- do círculo.
 
 -- Para resolver este desafio é necessário
--- altermos duas partes do noddo código
+-- altermos duas partes do nosso código
 -- anterior. Primeiro, temos que criar
 -- o novo parâmetro na função folhas.
 -- Eu chamei este parâmetro de "diametro",

@@ -53,6 +53,7 @@ function makeExampleHtml {
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$2</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro"/>
   <link rel="stylesheet" href="/assets/editor.css"/>
